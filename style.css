@@ -1,0 +1,59 @@
+html{
+    background-color: gainsboro;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.title{
+    font-size: 95px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+button{
+    font-size: large;
+    background-color: gold;
+    color: white;
+    font-weight: 400;
+    display:block
+}
+
+.but{
+    text-align: center;
+    margin: auto;
+}
+
+.but.r2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a{
+    color: black;
+}
+
+a:link {
+    color:black;
+    -webkit-text-stroke: 0.2px black;
+    text-decoration: none;      /** gets rid of underlinks from links**/
+}
+
+a:visited {
+    background-color: gold;
+    text-decoration: none;
+}
+    
+a:hover {
+    background-color: pink;
+    text-decoration: none;
+ }
+    
+a:active {
+    background-color: hotpink;
+    text-decoration: none;
+}  
