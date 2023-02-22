@@ -63,3 +63,26 @@ a:active {
     margin-left: auto;
     margin-right: auto;
 }
+
+h1{
+    text-shadow: 5px 5px 6px lightpink;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+p,
+li{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.wacky{
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bolder;
+    font-size: 45px;
+}
